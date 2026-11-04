@@ -79,6 +79,10 @@ export function Footer() {
                 LinkedIn <ArrowUpRight size={13} />
               </a>
             )}
+            <a href={profile.whatsapp} target="_blank" rel="noreferrer"
+              aria-label={`Chat on WhatsApp at ${profile.whatsappDisplay}`}>
+              WhatsApp · {profile.whatsappDisplay} <ArrowUpRight size={13} />
+            </a>
           </div>
         </div>
       </div>

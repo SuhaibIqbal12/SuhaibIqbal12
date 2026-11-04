@@ -463,5 +463,7 @@ export const profile = {
   github: "https://github.com/SuhaibIqbal12",
   email: "suhaibiqbal961@gmail.com",
   resume: null as string | null,
-  linkedin: null as string | null,
+  linkedin: "https://www.linkedin.com/in/mohammed-suhaib-iqbal-9b457138b/",
+  whatsapp: "https://wa.me/919392954617",
+  whatsappDisplay: "+91 93929 54617",
 };

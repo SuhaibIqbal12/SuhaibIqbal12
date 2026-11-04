@@ -61,6 +61,7 @@ export default function Home() {
             <a href={profile.github} target="_blank" rel="noreferrer">
               GitHub ↗
             </a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
             <a href="#contact">Contact ↗</a>
             <Link href="/projects/ai-tutor/">Start with AI Tutor ↗</Link>
           </div>
