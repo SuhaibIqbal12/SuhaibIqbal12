@@ -4,7 +4,7 @@
 
 **Building practical AI applications while strengthening the fundamentals.**
 
-[Explore projects](#selected-projects) · [Learning portfolio](#learning-portfolio) · [Repositories](https://github.com/SuhaibIqbal12?tab=repositories)
+[🌐 Visit my portfolio](https://suhaib-the-proof-lab.suhaibiqbal961.chatgpt.site) · [Explore projects](#selected-projects) · [Learning portfolio](#learning-portfolio) · [Repositories](https://github.com/SuhaibIqbal12?tab=repositories)
 
 </div>
 
