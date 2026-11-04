@@ -81,13 +81,43 @@ export default function ProjectMedia({ slug }: { slug: string }) {
       </section>
     );
   return (
-    <section className="project-media private-media-note">
-      <h3>Privacy is part of the presentation.</h3>
-      <p>
-        Project screenshots and source are private. This public case study uses
-        the owner-approved summary and an original fictional workflow
-        visualization. Private screenshots and implementation files are
-        withheld.
+    <section className="project-media">
+      <div className="media-section-heading">
+        <h3>The actual SmartClaimAI front page.</h3>
+        <p>
+          The repository screenshot shows the demo workspace before any claim
+          information is entered. Its visible “Backend unavailable” status is
+          preserved. This image documents the interface; it does not verify a
+          working voice session, claim submission or live insurer integration.
+        </p>
+      </div>
+      <div className="media-gallery">
+        <figure>
+          <picture>
+            <source
+              media="(max-width:760px)"
+              srcSet="/assets/smartclaim-front-640.webp"
+            />
+            <Image
+              src="/assets/smartclaim-front-1280.webp"
+              width={1280}
+              height={879}
+              alt="Genuine SmartClaimAI front-page screenshot showing an empty demo intake workspace and Backend unavailable status."
+              loading="lazy"
+              sizes="(max-width:760px) 88vw, 65vw"
+            />
+          </picture>
+          <figcaption>
+            <span>
+              Front page · genuine repository screenshot · capture date
+              unverified
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <p className="source-caption">
+        Published at the owner’s request. Source code and other private
+        repository assets remain withheld.
       </p>
     </section>
   );

@@ -129,9 +129,10 @@ export default function CaseStudy({ project: p }: { project: Project }) {
                 </div>
                 {p.slug === "smartclaim" && (
                   <p className="source-access-note">
-                    The implementation repository is private. Its source,
-                    screenshots and internal reports are withheld. The fictional
-                    portfolio simulation is available to everyone.
+                    The implementation repository is private. Its front-page
+                    screenshot is shared with the owner’s approval; source code,
+                    other images and internal reports remain withheld. The
+                    fictional portfolio simulation is available to everyone.
                   </p>
                 )}
                 <div className="panel-link-row">

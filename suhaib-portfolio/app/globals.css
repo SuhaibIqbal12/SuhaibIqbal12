@@ -4626,3 +4626,13 @@ html[data-reduced-motion="true"] *:after {
     font-size: 11px;
   }
 }
+
+/* Genuine SmartClaimAI front-page capture; preserve the complete image. */
+.claim-photo { background: #dce9e7; display: flex; flex-direction: column; justify-content: center; }
+.claim-photo .project-browser-frame { transform: rotate(1deg); margin: 26px auto 20px; }
+.claim-photo .browser-frame-bar { background: #e7efed; }
+.case-hero .claim-photo { height: auto; min-height: 360px; padding: 22px; }
+@media (max-width:760px) {
+  .claim-photo { min-height: 305px; padding: 20px; }
+  .case-hero .claim-photo { min-height: 300px; }
+}

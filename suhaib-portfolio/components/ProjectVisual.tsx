@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Braces, Check, ScanLine } from "lucide-react";
+import { ScanLine } from "lucide-react";
 export default function ProjectVisual({ kind }: { kind: string }) {
   if (kind === "ai-tutor")
     return (
@@ -37,46 +37,35 @@ export default function ProjectVisual({ kind }: { kind: string }) {
     );
   if (kind === "smartclaim")
     return (
-      <div
-        className="project-art claim-art"
-        role="img"
-        aria-label="Original illustrative claim workflow with supplied fields, validation and a human-review packet; not a screenshot"
-      >
+      <div className="project-art claim-art claim-photo">
         <div className="art-label mono">
-          CONVERSATION → CLAIM PACKET<span>ILLUSTRATIVE VISUALIZATION</span>
+          SMARTCLAIMAI<span>GENUINE FRONT-PAGE SCREENSHOT</span>
         </div>
-        <div className="claim-document">
-          <div className="claim-document-head">
-            <span>
-              INTAKE
-              <br />
-              <b>02—SC</b>
-            </span>
-            <Braces size={35} />
-          </div>
-          <div className="claim-line">
-            <span>name / incident</span>
+        <div className="project-browser-frame">
+          <div className="browser-frame-bar">
             <i />
+            <i />
+            <i />
+            <span>SmartClaimAI · demo workspace</span>
           </div>
-          <div className="claim-line">
-            <span>validation</span>
-            <b>
-              <Check size={12} /> STRUCTURED
-            </b>
-          </div>
-          <div className="claim-line">
-            <span>evidence</span>
-            <b className="missing">1 ITEM MISSING</b>
-          </div>
-          <div className="claim-stamp">
-            HUMAN REVIEW
-            <br />
-            <small>NO INSURER SUBMISSION</small>
-          </div>
+          <picture>
+            <source
+              media="(max-width:760px)"
+              srcSet="/assets/smartclaim-front-640.webp"
+            />
+            <Image
+              src="/assets/smartclaim-front-1280.webp"
+              width={1280}
+              height={879}
+              alt="Actual SmartClaimAI front page with an empty claim workspace, voice assistant and checklist. Its status reads Backend unavailable."
+              loading="lazy"
+              sizes="(max-width:760px) 90vw, 45vw"
+            />
+          </picture>
         </div>
         <div className="art-foot mono">
-          FICTIONAL WORKFLOW · ORIGINAL CODED ART
-          <Check size={17} />
+          REPOSITORY CAPTURE · BACKEND UNAVAILABLE
+          <ScanLine size={15} />
         </div>
       </div>
     );

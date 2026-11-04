@@ -45,4 +45,8 @@ The original GitHub commit `0f271f691e6bf00e4620db22e0bb18f5cc06ea78` and native
 3. Approve the Vercel connection’s access to the existing workspace; the service currently returns 403 for that scope. Task permission alone does not create the OAuth grant.
 4. Approve CGPA publication only if desired; it is currently omitted.
 
-Private screenshots, credentials, phone numbers and confidential employer materials are not part of this delivery.
+Apart from the explicitly approved SmartClaimAI front-page screenshot, private images, credentials, phone numbers and confidential employer materials are not part of this delivery.
+
+## SmartClaimAI front-page update — 4 November 2026
+
+The owner requested the SmartClaimAI front page in the portfolio. The genuine repository screenshot now appears in the Work showcase, case-study hero and Evidence view. Responsive WebP versions preserve the full interface and its visible Backend unavailable status. This is image evidence, not a live deployment claim. No source code or other private assets were added.
