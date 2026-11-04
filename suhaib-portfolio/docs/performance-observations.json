@@ -1,0 +1,18 @@
+{
+  "context": "Local production iframe observation, not field performance",
+  "measurements": {
+    "LCP": {
+      "value": 27420,
+      "rating": "poor",
+      "unit": "milliseconds"
+    },
+    "CLS": {
+      "value": 0.297603448840622,
+      "rating": "poor",
+      "unit": "score"
+    }
+  },
+  "pending": [
+    "INP requires enough observed interactions; missing metrics are unmeasured"
+  ]
+}

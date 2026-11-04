@@ -1,0 +1,146 @@
+[
+  {
+    "page": "/",
+    "frameWidth": "360",
+    "content": 345,
+    "viewport": 345
+  },
+  {
+    "page": "/",
+    "frameWidth": "390",
+    "content": 375,
+    "viewport": 375
+  },
+  {
+    "page": "/",
+    "frameWidth": "412",
+    "content": 397,
+    "viewport": 397
+  },
+  {
+    "page": "/",
+    "frameWidth": "768",
+    "content": 753,
+    "viewport": 753
+  },
+  {
+    "page": "/",
+    "frameWidth": "1024",
+    "content": 1009,
+    "viewport": 1009
+  },
+  {
+    "page": "/",
+    "frameWidth": "1440",
+    "content": 1425,
+    "viewport": 1425
+  },
+  {
+    "page": "/projects/ai-tutor/",
+    "frameWidth": "360",
+    "content": 345,
+    "viewport": 345
+  },
+  {
+    "page": "/projects/ai-tutor/",
+    "frameWidth": "390",
+    "content": 375,
+    "viewport": 375
+  },
+  {
+    "page": "/projects/ai-tutor/",
+    "frameWidth": "412",
+    "content": 397,
+    "viewport": 397
+  },
+  {
+    "page": "/projects/ai-tutor/",
+    "frameWidth": "768",
+    "content": 753,
+    "viewport": 753
+  },
+  {
+    "page": "/projects/ai-tutor/",
+    "frameWidth": "1024",
+    "content": 1009,
+    "viewport": 1009
+  },
+  {
+    "page": "/projects/ai-tutor/",
+    "frameWidth": "1440",
+    "content": 1425,
+    "viewport": 1425
+  },
+  {
+    "page": "/projects/smartclaim/",
+    "frameWidth": "360",
+    "content": 345,
+    "viewport": 345
+  },
+  {
+    "page": "/projects/smartclaim/",
+    "frameWidth": "390",
+    "content": 375,
+    "viewport": 375
+  },
+  {
+    "page": "/projects/smartclaim/",
+    "frameWidth": "412",
+    "content": 397,
+    "viewport": 397
+  },
+  {
+    "page": "/projects/smartclaim/",
+    "frameWidth": "768",
+    "content": 753,
+    "viewport": 753
+  },
+  {
+    "page": "/projects/smartclaim/",
+    "frameWidth": "1024",
+    "content": 1009,
+    "viewport": 1009
+  },
+  {
+    "page": "/projects/smartclaim/",
+    "frameWidth": "1440",
+    "content": 1425,
+    "viewport": 1425
+  },
+  {
+    "page": "/projects/vision-reality/",
+    "frameWidth": "360",
+    "content": 345,
+    "viewport": 345
+  },
+  {
+    "page": "/projects/vision-reality/",
+    "frameWidth": "390",
+    "content": 375,
+    "viewport": 375
+  },
+  {
+    "page": "/projects/vision-reality/",
+    "frameWidth": "412",
+    "content": 397,
+    "viewport": 397
+  },
+  {
+    "page": "/projects/vision-reality/",
+    "frameWidth": "768",
+    "content": 753,
+    "viewport": 753
+  },
+  {
+    "page": "/projects/vision-reality/",
+    "frameWidth": "1024",
+    "content": 1009,
+    "viewport": 1009
+  },
+  {
+    "page": "/projects/vision-reality/",
+    "frameWidth": "1440",
+    "content": 1425,
+    "viewport": 1425
+  }
+]
